@@ -1,0 +1,62 @@
+﻿ALUNAS: Maysa vitória e Michelly Suhre
+
+
+
+Algoritmo "mediaidades"
+// Disciplina   : Introdução a Lógica de Programação
+// Professor   : larissa Ribeiro
+// Descrição   :soma e media das idades 
+// Autor(a)    : Maysa e Michelly
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+  idade: inteiro
+  media: real
+  contador: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval("insira idade: ")
+   leia (idade)
+   enquanto idade>=0 faca
+     contador<- contador+1
+      media<-media+idade
+      escreval("insira a idade: ")
+      leia (idade)
+   fimenquanto
+   
+   escreval ("foram lidas: ", contador, "idades")
+
+   media<-media/contador
+   escreval("a media das idades é: ", media)
+Fimalgoritmo
+
+
+
+
+
+Algoritmo "dobro"
+// Disciplina   : Introdução a Lógica de Programação
+// Professor   : larissa Ribeiro
+// Descrição   : mostrar o dobro do numero inserido e encerrar quando um numero inserido for negativo
+// Autor(a)    : Maysa e Michelly
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+   numero, dobro: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreval("digite um numero: ")
+    leia(numero)
+    
+    enquanto numero>=0 faca
+             dobro<-numero*2
+             escreval("o valor do dobro de", numero, " é:", dobro)
+             escreval("insira um numero: ")
+             leia(numero)
+    fimenquanto
+    
+    
+Fimalgoritmo
